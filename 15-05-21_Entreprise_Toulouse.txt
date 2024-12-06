@@ -1,0 +1,63 @@
+IP : 203.0.113.56
+2024-12-03 09:00:12 - OPTIONS /api/v1/device HTTP/1.1 204 No Content
+2024-12-03 09:02:30 - GET /resources HTTP/1.1 404 Not Found
+2024-12-03 09:05:12 - POST /comment HTTP/1.1 201 Created
+2024-12-03 09:07:45 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 09:10:12 - HEAD /favicon.ico HTTP/1.1 200 OK
+2024-12-03 09:12:45 - PUT /log HTTP/1.1 200 OK
+2024-12-03 09:15:19 - GET /api/settings HTTP/1.1 200 OK
+2024-12-03 09:17:12 - PATCH /config HTTP/1.1 403 Forbidden
+2024-12-03 09:20:19 - DELETE /account HTTP/1.1 403 Forbidden
+2024-12-03 09:22:45 - POST /upload HTTP/1.1 200 OK
+2024-12-03 09:25:12 - TRACE /admin HTTP/1.1 403 Forbidden
+2024-12-03 09:27:30 - CONNECT /proxy HTTP/1.1 502 Bad Gateway
+2024-12-03 09:30:19 - GET /report HTTP/1.1 403 Forbidden
+2024-12-03 09:33:30 - PATCH /update HTTP/1.1 200 OK
+2024-12-03 09:35:12 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 09:37:45 - OPTIONS /help HTTP/1.1 204 No Content
+2024-12-03 09:40:12 - GET /api/users HTTP/1.1 401 Unauthorized
+2024-12-03 09:42:30 - PUT /config HTTP/1.1 200 OK
+2024-12-03 09:45:19 - TRACE /debug HTTP/1.1 500 Internal Server Error
+
+IP : 192.0.2.12
+2024-12-03 08:00:45 - GET /home HTTP/1.1 200 OK
+2024-12-03 08:02:30 - POST /auth HTTP/1.1 401 Unauthorized
+2024-12-03 08:05:19 - OPTIONS /api/v1/info HTTP/1.1 204 No Content
+2024-12-03 08:07:45 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 08:10:12 - DELETE /account HTTP/1.1 403 Forbidden
+2024-12-03 08:12:30 - GET /profile HTTP/1.1 200 OK
+2024-12-03 08:15:19 - PATCH /update HTTP/1.1 200 OK
+2024-12-03 08:17:30 - PUT /config HTTP/1.1 200 OK
+2024-12-03 08:20:45 - POST /log HTTP/1.1 201 Created
+2024-12-03 08:23:19 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 08:25:12 - HEAD /status HTTP/1.1 404 Not Found
+2024-12-03 08:27:45 - CONNECT /proxy HTTP/1.1 502 Bad Gateway
+2024-12-03 08:30:12 - OPTIONS /help HTTP/1.1 204 No Content
+2024-12-03 08:32:30 - TRACE /admin HTTP/1.1 403 Forbidden
+2024-12-03 08:35:19 - GET /report HTTP/1.1 403 Forbidden
+2024-12-03 08:38:12 - PATCH /download HTTP/1.1 200 OK
+2024-12-03 08:40:30 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 08:43:19 - POST /analytics HTTP/1.1 200 OK
+2024-12-03 08:45:12 - GET /api/users HTTP/1.1 401 Unauthorized
+
+IP : X.X.X.X
+2024-12-03 10:05:12 - Unauthorized access attempt detected on port 22.
+2024-12-03 10:06:45 - Multiple failed SSH login attempts. Source: X.X.X.X.
+2024-12-03 10:08:19 - Brute force attack detected. Usernames tried: admin, root, guest.
+2024-12-03 10:10:12 - Intrusion prevention system triggered. Blocking IP: X.X.X.X.
+2024-12-03 10:12:45 - Malicious script detected in HTTP request to /api/data.
+2024-12-03 10:15:19 - Suspicious activity: repeated pings (ICMP) at 1ms intervals.
+2024-12-03 10:17:30 - Connection attempt to database server. Credentials invalid.
+2024-12-03 10:20:45 - Unauthorized request to /admin/config.json.
+2024-12-03 10:23:12 - Suspicious file upload attempt detected at /upload.
+2024-12-03 10:25:19 - Webshell activity identified. Source: X.X.X.X.
+2024-12-03 10:28:30 - Attempted SQL injection: ' OR '1'='1 in /login POST request.
+2024-12-03 10:31:45 - Anomaly detected: high volume of requests from IP X.X.X.X.
+2024-12-03 10:33:19 - Denial of Service (DoS) attack detected on port 80.
+2024-12-03 10:35:30 - Unauthorized file read attempt in /var/www/secret.txt.
+2024-12-03 10:38:12 - IP X.X.X.X added to firewall blocklist.
+2024-12-03 10:40:45 - Reconnaissance activity detected: attempted port scan.
+2024-12-03 10:43:12 - Injection attempt in API request: { "query": "DROP TABLE users;" }.
+2024-12-03 10:45:19 - Threat actor tried to access SMB share. No credentials provided.
+2024-12-03 10:47:30 - Suspicious PowerShell script execution detected.
+

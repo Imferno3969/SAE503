@@ -1,0 +1,56 @@
+Nom : Entreprise Nantes
+
+IP : 203.0.113.11
+2024-12-03 07:15:12 - GET /home HTTP/1.1 200 OK
+2024-12-03 07:17:45 - POST /login HTTP/1.1 403 Forbidden
+2024-12-03 07:20:01 - PATCH /user/settings HTTP/1.1 200 OK
+2024-12-03 07:23:12 - OPTIONS /help HTTP/1.1 204 No Content
+2024-12-03 07:25:45 - DELETE /file HTTP/1.1 404 Not Found
+2024-12-03 07:27:30 - GET /api HTTP/1.1 401 Unauthorized
+2024-12-03 07:30:11 - HEAD /favicon.ico HTTP/1.1 200 OK
+2024-12-03 07:33:45 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 07:35:01 - POST /upload HTTP/1.1 201 Created
+2024-12-03 07:37:12 - CONNECT /proxy HTTP/1.1 502 Bad Gateway
+2024-12-03 07:40:45 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 07:43:19 - PUT /config HTTP/1.1 200 OK
+2024-12-03 07:45:30 - GET /report HTTP/1.1 403 Forbidden
+2024-12-03 07:50:12 - PATCH /download HTTP/1.1 200 OK
+2024-12-03 07:52:45 - HEAD /status HTTP/1.1 404 Not Found
+2024-12-03 07:55:30 - OPTIONS /settings HTTP/1.1 403 Forbidden
+2024-12-03 07:58:12 - TRACE /admin HTTP/1.1 403 Forbidden
+2024-12-03 08:00:30 - POST /comment HTTP/1.1 200 OK
+
+IP : 192.0.2.25
+2024-12-03 08:05:12 - GET /home HTTP/1.1 200 OK
+2024-12-03 08:07:45 - POST /auth HTTP/1.1 401 Unauthorized
+2024-12-03 08:10:19 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 08:12:12 - OPTIONS /help HTTP/1.1 204 No Content
+2024-12-03 08:15:19 - DELETE /file HTTP/1.1 404 Not Found
+2024-12-03 08:17:12 - GET /report HTTP/1.1 403 Forbidden
+2024-12-03 08:20:30 - PATCH /settings HTTP/1.1 200 OK
+2024-12-03 08:23:12 - CONNECT /proxy HTTP/1.1 502 Bad Gateway
+2024-12-03 08:25:45 - TRACE /admin HTTP/1.1 403 Forbidden
+2024-12-03 08:28:19 - POST /upload HTTP/1.1 201 Created
+2024-12-03 08:30:30 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 08:33:45 - HEAD /favicon.ico HTTP/1.1 200 OK
+2024-12-03 08:35:12 - OPTIONS /settings HTTP/1.1 403 Forbidden
+2024-12-03 08:37:19 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 08:40:12 - POST /user/settings HTTP/1.1 201 Created
+2024-12-03 08:43:45 - GET /report HTTP/1.1 403 Forbidden
+
+IP : 198.51.100.15
+2024-12-03 08:45:12 - GET /status HTTP/1.1 200 OK
+2024-12-03 08:47:45 - POST /auth HTTP/1.1 401 Unauthorized
+2024-12-03 08:50:19 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 08:52:12 - OPTIONS /help HTTP/1.1 204 No Content
+2024-12-03 08:55:19 - DELETE /file HTTP/1.1 404 Not Found
+2024-12-03 08:57:12 - PATCH /settings HTTP/1.1 200 OK
+2024-12-03 09:00:30 - GET /report HTTP/1.1 403 Forbidden
+2024-12-03 09:03:12 - CONNECT /proxy HTTP/1.1 502 Bad Gateway
+2024-12-03 09:05:45 - TRACE /admin HTTP/1.1 403 Forbidden
+2024-12-03 09:08:19 - POST /upload HTTP/1.1 201 Created
+2024-12-03 09:10:30 - DELETE /log HTTP/1.1 500 Internal Server Error
+2024-12-03 09:13:45 - HEAD /favicon.ico HTTP/1.1 200 OK
+2024-12-03 09:15:12 - OPTIONS /settings HTTP/1.1 403 Forbidden
+2024-12-03 09:17:19 - TRACE /debug HTTP/1.1 500 Internal Server Error
+2024-12-03 09:20:12 - GET /report HTTP/1.1 403 Forbidden
